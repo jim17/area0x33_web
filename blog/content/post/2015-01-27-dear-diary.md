@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Dear diary
 date: 2015-01-27
 ---
