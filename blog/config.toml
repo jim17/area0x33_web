@@ -1,0 +1,57 @@
+baseurl = "http://www.area0x33.com/blog/"
+languageCode = "en-us"
+title = "AREA0X33 Blog"
+theme = "beautifulhugo"
+pygmentsUseClasses = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Here we share some of our projects and ideas"
+  logo = "img/area0x33-logo.png"
+  favicon = "img/favicon.ico"
+  commit = false
+
+[Author]
+  name = "Area0x33"
+  email = "info@area0x33.com"
+  #facebook = "username"
+  github = "jim17"
+  twitter = "NoelCarriqui"
+  #linkedin = "pub/username/X/YYY/ZZZ"
+  #stackoverflow = "users/XXXXXXX/username"
+  #soundcloud = "username"
+  #wikipedia = "User:username"
+
+[[menu.main]]
+    name = "HOME"
+    url = "../."
+    weight = 1
+
+[[menu.main]]
+    identifier = "projects"
+    name = "PROJECTS"
+    weight = 1
+
+[[menu.main]]
+    parent = "projects"
+    name = "MemType"
+    #url = "../Memtype.hml"
+    weight = 1
+
+[[menu.main]]
+    parent = "projects"
+    name = "Area CPLD"
+    #url = "../cpld.hml"
+    weight = 2
+
+[[menu.main]]
+    parent = "projects"
+    name = "Spacious"
+    #url = "../spacious.hml"
+    weight = 3
+
+[[menu.main]]
+    name = "ABOUT"
+    url = "/page/about/"
+    weight = 3
