@@ -1,6 +1,6 @@
 baseurl = "http://www.area0x33.com/blog/"
 languageCode = "en-us"
-title = "AREA0X33 Blog"
+title = "Area0x33 Blog"
 theme = "beautifulhugo"
 pygmentsUseClasses = true
 #disqusShortname = "XXX"
